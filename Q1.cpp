@@ -45,7 +45,7 @@ int main()
 	cout <<"The maximum between "<<q<<"and "<<w<<"is " << max << endl;
 
 
-	/////Problem 6/////
+	/////Problem 6//////
 	float i,o;
 	cout << "Problem 6" << endl;
 	cout << "Please enter a negative number:" << endl;
