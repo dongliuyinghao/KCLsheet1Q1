@@ -45,7 +45,8 @@ int main()
 	cout <<"The maximum between "<<q<<"and "<<w<<"is " << max << endl;
 
 
-	/////Problem 6//////
+	/////Problem 6 绝对值//////
+	//version 1//
 	float i,o;
 	cout << "Problem 6" << endl;
 	cout << "Please enter a negative number:" << endl;
@@ -53,5 +54,11 @@ int main()
 	o = abs(i);
 	cout << o << endl;
 
+	//version 2 直接用有条件三元运算符condition ? result1 : result2//
+	double a1, b1;
+	cout << "Please enter a negative number:" << endl;
+	cin >> a1;
+	b1 = ((a1 > 0) ? a1 : -a1);
+	cout << b1 << endl;
 	return 0;
 }
